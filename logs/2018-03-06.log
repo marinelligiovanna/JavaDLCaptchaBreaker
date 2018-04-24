@@ -1,0 +1,172 @@
+________________________________________________________________________________
+class com.msquare.integrations.cvm.ImportarCvmCadastro
+Tue Mar 06 10:41:02 BRT 2018
+________________________________________________________________________________
+{
+  "name" : null,
+  "execution_start" : 1520343662262,
+  "execution_end" : 1520343777586,
+  "result_type" : "SUCCESS",
+  "result" : 4291,
+  "params" : null,
+  "validation" : null,
+  "exception" : null
+}
+________________________________________________________________________________
+class com.msquare.integrations.bovespa.ImportarTitulosNegociaveis
+Tue Mar 06 10:42:57 BRT 2018
+________________________________________________________________________________
+{
+  "name" : null,
+  "execution_start" : 1520343777653,
+  "execution_end" : 1520344353045,
+  "result_type" : "SUCCESS",
+  "result" : 19095,
+  "params" : null,
+  "validation" : null,
+  "exception" : null
+}
+________________________________________________________________________________
+class com.msquare.integrations.bovespa.ImportarSerieHistoricaDiaria
+Tue Mar 06 10:52:33 BRT 2018
+________________________________________________________________________________
+{
+  "name" : null,
+  "execution_start" : 1520344353074,
+  "execution_end" : 1520344457962,
+  "result_type" : "SUCCESS",
+  "result" : 2335,
+  "params" : null,
+  "validation" : null,
+  "exception" : null
+}
+________________________________________________________________________________
+class com.msquare.integrations.cvm.ImportarCvmArquivamentoAutomatico
+Tue Mar 06 10:54:17 BRT 2018
+________________________________________________________________________________
+{
+  "name" : null,
+  "execution_start" : 1520344457984,
+  "execution_end" : 1520344497829,
+  "result_type" : "SUCCESS",
+  "result" : [ {
+    "name" : null,
+    "execution_start" : 1520344458092,
+    "execution_end" : 1520344461079,
+    "result_type" : "EXECUTION_FAILED",
+    "result" : {
+      "data" : "2013-02-04",
+      "num_registros" : 0,
+      "ult_consulta" : 1520344461059,
+      "mensagem" : "Query failed"
+    },
+    "params" : "2013-02-04",
+    "validation" : {
+      "name" : "url",
+      "restrictions" : [ ],
+      "valid" : false,
+      "message" : "22016Nenhum registro localizado.RetornaXMLDonwloadMultiplo",
+      "children" : [ ]
+    },
+    "exception" : null
+  }, {
+    "name" : null,
+    "execution_start" : 1520344461079,
+    "execution_end" : 1520344463458,
+    "result_type" : "EXECUTION_FAILED",
+    "result" : {
+      "data" : "2013-11-22",
+      "num_registros" : 0,
+      "ult_consulta" : 1520344463439,
+      "mensagem" : "Query failed"
+    },
+    "params" : "2013-11-22",
+    "validation" : {
+      "name" : "url",
+      "restrictions" : [ ],
+      "valid" : false,
+      "message" : "22016Nenhum registro localizado.RetornaXMLDonwloadMultiplo",
+      "children" : [ ]
+    },
+    "exception" : null
+  }, {
+    "name" : null,
+    "execution_start" : 1520344463458,
+    "execution_end" : 1520344465551,
+    "result_type" : "EXECUTION_FAILED",
+    "result" : {
+      "data" : "2014-11-20",
+      "num_registros" : 0,
+      "ult_consulta" : 1520344465531,
+      "mensagem" : "Query failed"
+    },
+    "params" : "2014-11-20",
+    "validation" : {
+      "name" : "url",
+      "restrictions" : [ ],
+      "valid" : false,
+      "message" : "22016Nenhum registro localizado.RetornaXMLDonwloadMultiplo",
+      "children" : [ ]
+    },
+    "exception" : null
+  }, {
+    "name" : null,
+    "execution_start" : 1520344465551,
+    "execution_end" : 1520344468234,
+    "result_type" : "SUCCESS",
+    "result" : {
+      "data" : 1520046000000,
+      "num_registros" : 0,
+      "ult_consulta" : 1520344468195,
+      "mensagem" : null
+    },
+    "params" : null,
+    "validation" : null,
+    "exception" : null
+  }, {
+    "name" : null,
+    "execution_start" : 1520344468234,
+    "execution_end" : 1520344471116,
+    "result_type" : "SUCCESS",
+    "result" : {
+      "data" : 1520132400000,
+      "num_registros" : 7,
+      "ult_consulta" : 1520344470503,
+      "mensagem" : null
+    },
+    "params" : null,
+    "validation" : null,
+    "exception" : null
+  }, {
+    "name" : null,
+    "execution_start" : 1520344471116,
+    "execution_end" : 1520344494473,
+    "result_type" : "SUCCESS",
+    "result" : {
+      "data" : 1520218800000,
+      "num_registros" : 294,
+      "ult_consulta" : 1520344475353,
+      "mensagem" : null
+    },
+    "params" : null,
+    "validation" : null,
+    "exception" : null
+  }, {
+    "name" : null,
+    "execution_start" : 1520344494473,
+    "execution_end" : 1520344497829,
+    "result_type" : "SUCCESS",
+    "result" : {
+      "data" : 1520305200000,
+      "num_registros" : 28,
+      "ult_consulta" : 1520344496145,
+      "mensagem" : null
+    },
+    "params" : null,
+    "validation" : null,
+    "exception" : null
+  } ],
+  "params" : null,
+  "validation" : null,
+  "exception" : null
+}

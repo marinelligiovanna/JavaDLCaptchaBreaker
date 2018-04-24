@@ -1,0 +1,28 @@
+________________________________________________________________________________
+class com.msquare.integrations.cvm.ImportarCvmArquivamentoAutomatico
+Fri Mar 09 16:09:35 BRT 2018
+________________________________________________________________________________
+{
+  "name" : null,
+  "execution_start" : 1520622575340,
+  "execution_end" : 1520622575984,
+  "result_type" : "SUCCESS",
+  "result" : [ ],
+  "params" : null,
+  "validation" : null,
+  "exception" : null
+}
+________________________________________________________________________________
+class com.msquare.integrations.cvm.ImportarCvmArquivamentoAutomatico
+Fri Mar 09 16:09:57 BRT 2018
+________________________________________________________________________________
+{
+  "name" : null,
+  "execution_start" : 1520622597877,
+  "execution_end" : 1520622598397,
+  "result_type" : "SUCCESS",
+  "result" : [ ],
+  "params" : null,
+  "validation" : null,
+  "exception" : null
+}

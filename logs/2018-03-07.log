@@ -1,0 +1,287 @@
+________________________________________________________________________________
+class com.msquare.integrations.cvm.ImportarCvmCadastro
+Wed Mar 07 10:28:32 BRT 2018
+________________________________________________________________________________
+{
+  "name" : null,
+  "execution_start" : 1520429312735,
+  "execution_end" : 1520429413179,
+  "result_type" : "EXCEPTION",
+  "result" : null,
+  "params" : null,
+  "validation" : null,
+  "exception" : {
+    "cause" : {
+      "cause" : null,
+      "stackTrace" : [ {
+        "classLoaderName" : "app",
+        "moduleName" : null,
+        "moduleVersion" : null,
+        "methodName" : "makeFromDatabaseError",
+        "fileName" : "SQLServerException.java",
+        "lineNumber" : 232,
+        "className" : "com.microsoft.sqlserver.jdbc.SQLServerException",
+        "nativeMethod" : false
+      }, {
+        "classLoaderName" : "app",
+        "moduleName" : null,
+        "moduleVersion" : null,
+        "methodName" : "getNextResult",
+        "fileName" : "SQLServerStatement.java",
+        "lineNumber" : 1672,
+        "className" : "com.microsoft.sqlserver.jdbc.SQLServerStatement",
+        "nativeMethod" : false
+      }, {
+        "classLoaderName" : "app",
+        "moduleName" : null,
+        "moduleVersion" : null,
+        "methodName" : "doExecuteStatement",
+        "fileName" : "SQLServerStatement.java",
+        "lineNumber" : 903,
+        "className" : "com.microsoft.sqlserver.jdbc.SQLServerStatement",
+        "nativeMethod" : false
+      }, {
+        "classLoaderName" : "app",
+        "moduleName" : null,
+        "moduleVersion" : null,
+        "methodName" : "doExecute",
+        "fileName" : "SQLServerStatement.java",
+        "lineNumber" : 796,
+        "className" : "com.microsoft.sqlserver.jdbc.SQLServerStatement$StmtExecCmd",
+        "nativeMethod" : false
+      }, {
+        "classLoaderName" : "app",
+        "moduleName" : null,
+        "moduleVersion" : null,
+        "methodName" : "execute",
+        "fileName" : "IOBuffer.java",
+        "lineNumber" : 7535,
+        "className" : "com.microsoft.sqlserver.jdbc.TDSCommand",
+        "nativeMethod" : false
+      }, {
+        "classLoaderName" : "app",
+        "moduleName" : null,
+        "moduleVersion" : null,
+        "methodName" : "executeCommand",
+        "fileName" : "SQLServerConnection.java",
+        "lineNumber" : 2438,
+        "className" : "com.microsoft.sqlserver.jdbc.SQLServerConnection",
+        "nativeMethod" : false
+      }, {
+        "classLoaderName" : "app",
+        "moduleName" : null,
+        "moduleVersion" : null,
+        "methodName" : "executeCommand",
+        "fileName" : "SQLServerStatement.java",
+        "lineNumber" : 208,
+        "className" : "com.microsoft.sqlserver.jdbc.SQLServerStatement",
+        "nativeMethod" : false
+      }, {
+        "classLoaderName" : "app",
+        "moduleName" : null,
+        "moduleVersion" : null,
+        "methodName" : "executeStatement",
+        "fileName" : "SQLServerStatement.java",
+        "lineNumber" : 183,
+        "className" : "com.microsoft.sqlserver.jdbc.SQLServerStatement",
+        "nativeMethod" : false
+      }, {
+        "classLoaderName" : "app",
+        "moduleName" : null,
+        "moduleVersion" : null,
+        "methodName" : "executeUpdate",
+        "fileName" : "SQLServerStatement.java",
+        "lineNumber" : 721,
+        "className" : "com.microsoft.sqlserver.jdbc.SQLServerStatement",
+        "nativeMethod" : false
+      }, {
+        "classLoaderName" : "app",
+        "moduleName" : null,
+        "moduleVersion" : null,
+        "methodName" : "executeNonQuery",
+        "fileName" : "DatabaseCommand.java",
+        "lineNumber" : 124,
+        "className" : "com.eixox.data.sql.DatabaseCommand",
+        "nativeMethod" : false
+      }, {
+        "classLoaderName" : "app",
+        "moduleName" : null,
+        "moduleVersion" : null,
+        "methodName" : "executeNonQuery",
+        "fileName" : "DatabaseCommand.java",
+        "lineNumber" : 149,
+        "className" : "com.eixox.data.sql.DatabaseCommand",
+        "nativeMethod" : false
+      }, {
+        "classLoaderName" : "app",
+        "moduleName" : null,
+        "moduleVersion" : null,
+        "methodName" : "mainFlow",
+        "fileName" : "ImportarCvmCadastro.java",
+        "lineNumber" : 23,
+        "className" : "com.msquare.integrations.cvm.ImportarCvmCadastro",
+        "nativeMethod" : false
+      }, {
+        "classLoaderName" : "app",
+        "moduleName" : null,
+        "moduleVersion" : null,
+        "methodName" : "execute",
+        "fileName" : "UsecaseImplementation.java",
+        "lineNumber" : 137,
+        "className" : "com.eixox.usecases.UsecaseImplementation",
+        "nativeMethod" : false
+      }, {
+        "classLoaderName" : "app",
+        "moduleName" : null,
+        "moduleVersion" : null,
+        "methodName" : "execute",
+        "fileName" : "UsecaseImplementation.java",
+        "lineNumber" : 178,
+        "className" : "com.eixox.usecases.UsecaseImplementation",
+        "nativeMethod" : false
+      }, {
+        "classLoaderName" : "app",
+        "moduleName" : null,
+        "moduleVersion" : null,
+        "methodName" : "execute",
+        "fileName" : "UsecaseImplementation.java",
+        "lineNumber" : 189,
+        "className" : "com.eixox.usecases.UsecaseImplementation",
+        "nativeMethod" : false
+      }, {
+        "classLoaderName" : "app",
+        "moduleName" : null,
+        "moduleVersion" : null,
+        "methodName" : "run",
+        "fileName" : "Autorun.java",
+        "lineNumber" : 62,
+        "className" : "com.msquare.Autorun",
+        "nativeMethod" : false
+      }, {
+        "classLoaderName" : "app",
+        "moduleName" : null,
+        "moduleVersion" : null,
+        "methodName" : "main",
+        "fileName" : "Autorun.java",
+        "lineNumber" : 37,
+        "className" : "com.msquare.Autorun",
+        "nativeMethod" : false
+      } ],
+      "nextException" : null,
+      "sqlstate" : "S0001",
+      "errorCode" : 512,
+      "suppressed" : [ ],
+      "message" : "Subquery returned more than 1 value. This is not permitted when the subquery follows =, !=, <, <= , >, >= or when the subquery is used as an expression.",
+      "localizedMessage" : "Subquery returned more than 1 value. This is not permitted when the subquery follows =, !=, <, <= , >, >= or when the subquery is used as an expression."
+    },
+    "stackTrace" : [ {
+      "classLoaderName" : "app",
+      "moduleName" : null,
+      "moduleVersion" : null,
+      "methodName" : "executeNonQuery",
+      "fileName" : "DatabaseCommand.java",
+      "lineNumber" : 154,
+      "className" : "com.eixox.data.sql.DatabaseCommand",
+      "nativeMethod" : false
+    }, {
+      "classLoaderName" : "app",
+      "moduleName" : null,
+      "moduleVersion" : null,
+      "methodName" : "mainFlow",
+      "fileName" : "ImportarCvmCadastro.java",
+      "lineNumber" : 23,
+      "className" : "com.msquare.integrations.cvm.ImportarCvmCadastro",
+      "nativeMethod" : false
+    }, {
+      "classLoaderName" : "app",
+      "moduleName" : null,
+      "moduleVersion" : null,
+      "methodName" : "execute",
+      "fileName" : "UsecaseImplementation.java",
+      "lineNumber" : 137,
+      "className" : "com.eixox.usecases.UsecaseImplementation",
+      "nativeMethod" : false
+    }, {
+      "classLoaderName" : "app",
+      "moduleName" : null,
+      "moduleVersion" : null,
+      "methodName" : "execute",
+      "fileName" : "UsecaseImplementation.java",
+      "lineNumber" : 178,
+      "className" : "com.eixox.usecases.UsecaseImplementation",
+      "nativeMethod" : false
+    }, {
+      "classLoaderName" : "app",
+      "moduleName" : null,
+      "moduleVersion" : null,
+      "methodName" : "execute",
+      "fileName" : "UsecaseImplementation.java",
+      "lineNumber" : 189,
+      "className" : "com.eixox.usecases.UsecaseImplementation",
+      "nativeMethod" : false
+    }, {
+      "classLoaderName" : "app",
+      "moduleName" : null,
+      "moduleVersion" : null,
+      "methodName" : "run",
+      "fileName" : "Autorun.java",
+      "lineNumber" : 62,
+      "className" : "com.msquare.Autorun",
+      "nativeMethod" : false
+    }, {
+      "classLoaderName" : "app",
+      "moduleName" : null,
+      "moduleVersion" : null,
+      "methodName" : "main",
+      "fileName" : "Autorun.java",
+      "lineNumber" : 37,
+      "className" : "com.msquare.Autorun",
+      "nativeMethod" : false
+    } ],
+    "suppressed" : [ ],
+    "message" : "com.microsoft.sqlserver.jdbc.SQLServerException: Subquery returned more than 1 value. This is not permitted when the subquery follows =, !=, <, <= , >, >= or when the subquery is used as an expression.",
+    "localizedMessage" : "com.microsoft.sqlserver.jdbc.SQLServerException: Subquery returned more than 1 value. This is not permitted when the subquery follows =, !=, <, <= , >, >= or when the subquery is used as an expression."
+  }
+}
+________________________________________________________________________________
+class com.msquare.integrations.bovespa.ImportarSerieHistoricaDiaria
+Wed Mar 07 10:37:12 BRT 2018
+________________________________________________________________________________
+{
+  "name" : null,
+  "execution_start" : 1520429832486,
+  "execution_end" : 1520429929481,
+  "result_type" : "SUCCESS",
+  "result" : 2239,
+  "params" : null,
+  "validation" : null,
+  "exception" : null
+}
+________________________________________________________________________________
+class com.msquare.AutorunTester
+Wed Mar 07 11:13:46 BRT 2018
+________________________________________________________________________________
+{
+  "name" : null,
+  "execution_start" : 1520432026320,
+  "execution_end" : 1520432026323,
+  "result_type" : "SUCCESS",
+  "result" : null,
+  "params" : null,
+  "validation" : null,
+  "exception" : null
+}
+________________________________________________________________________________
+class com.msquare.AutorunTester
+Wed Mar 07 11:28:16 BRT 2018
+________________________________________________________________________________
+{
+  "name" : null,
+  "execution_start" : 1520432896644,
+  "execution_end" : 1520432896646,
+  "result_type" : "SUCCESS",
+  "result" : null,
+  "params" : null,
+  "validation" : null,
+  "exception" : null
+}

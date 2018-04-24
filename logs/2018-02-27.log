@@ -1,0 +1,360 @@
+________________________________________________________________________________
+class com.msquare.integrations.cvm.ImportarCvmCadastro
+Tue Feb 27 10:23:02 BRT 2018
+________________________________________________________________________________
+{
+  "execution_start" : 1519737782503,
+  "execution_end" : 1519737873846,
+  "result_type" : "SUCCESS",
+  "result" : 4289,
+  "params" : null,
+  "validation" : null,
+  "exception" : null
+}
+________________________________________________________________________________
+class com.msquare.integrations.bovespa.ImportarTitulosNegociaveis
+Tue Feb 27 10:24:33 BRT 2018
+________________________________________________________________________________
+{
+  "execution_start" : 1519737873928,
+  "execution_end" : 1519737875206,
+  "result_type" : "EXCEPTION",
+  "result" : null,
+  "params" : null,
+  "validation" : null,
+  "exception" : {
+    "cause" : {
+      "cause" : null,
+      "stackTrace" : [ {
+        "classLoaderName" : "app",
+        "moduleName" : null,
+        "moduleVersion" : null,
+        "methodName" : "makeFromDatabaseError",
+        "fileName" : "SQLServerException.java",
+        "lineNumber" : 232,
+        "className" : "com.microsoft.sqlserver.jdbc.SQLServerException",
+        "nativeMethod" : false
+      }, {
+        "classLoaderName" : "app",
+        "moduleName" : null,
+        "moduleVersion" : null,
+        "methodName" : "onEOF",
+        "fileName" : "tdsparser.java",
+        "lineNumber" : 291,
+        "className" : "com.microsoft.sqlserver.jdbc.TDSTokenHandler",
+        "nativeMethod" : false
+      }, {
+        "classLoaderName" : "app",
+        "moduleName" : null,
+        "moduleVersion" : null,
+        "methodName" : "parse",
+        "fileName" : "tdsparser.java",
+        "lineNumber" : 111,
+        "className" : "com.microsoft.sqlserver.jdbc.TDSParser",
+        "nativeMethod" : false
+      }, {
+        "classLoaderName" : "app",
+        "moduleName" : null,
+        "moduleVersion" : null,
+        "methodName" : "getNextResult",
+        "fileName" : "SQLServerStatement.java",
+        "lineNumber" : 1667,
+        "className" : "com.microsoft.sqlserver.jdbc.SQLServerStatement",
+        "nativeMethod" : false
+      }, {
+        "classLoaderName" : "app",
+        "moduleName" : null,
+        "moduleVersion" : null,
+        "methodName" : "doExecuteStatement",
+        "fileName" : "SQLServerStatement.java",
+        "lineNumber" : 903,
+        "className" : "com.microsoft.sqlserver.jdbc.SQLServerStatement",
+        "nativeMethod" : false
+      }, {
+        "classLoaderName" : "app",
+        "moduleName" : null,
+        "moduleVersion" : null,
+        "methodName" : "doExecute",
+        "fileName" : "SQLServerStatement.java",
+        "lineNumber" : 796,
+        "className" : "com.microsoft.sqlserver.jdbc.SQLServerStatement$StmtExecCmd",
+        "nativeMethod" : false
+      }, {
+        "classLoaderName" : "app",
+        "moduleName" : null,
+        "moduleVersion" : null,
+        "methodName" : "execute",
+        "fileName" : "IOBuffer.java",
+        "lineNumber" : 7535,
+        "className" : "com.microsoft.sqlserver.jdbc.TDSCommand",
+        "nativeMethod" : false
+      }, {
+        "classLoaderName" : "app",
+        "moduleName" : null,
+        "moduleVersion" : null,
+        "methodName" : "executeCommand",
+        "fileName" : "SQLServerConnection.java",
+        "lineNumber" : 2438,
+        "className" : "com.microsoft.sqlserver.jdbc.SQLServerConnection",
+        "nativeMethod" : false
+      }, {
+        "classLoaderName" : "app",
+        "moduleName" : null,
+        "moduleVersion" : null,
+        "methodName" : "executeCommand",
+        "fileName" : "SQLServerStatement.java",
+        "lineNumber" : 208,
+        "className" : "com.microsoft.sqlserver.jdbc.SQLServerStatement",
+        "nativeMethod" : false
+      }, {
+        "classLoaderName" : "app",
+        "moduleName" : null,
+        "moduleVersion" : null,
+        "methodName" : "executeStatement",
+        "fileName" : "SQLServerStatement.java",
+        "lineNumber" : 183,
+        "className" : "com.microsoft.sqlserver.jdbc.SQLServerStatement",
+        "nativeMethod" : false
+      }, {
+        "classLoaderName" : "app",
+        "moduleName" : null,
+        "moduleVersion" : null,
+        "methodName" : "executeUpdate",
+        "fileName" : "SQLServerStatement.java",
+        "lineNumber" : 721,
+        "className" : "com.microsoft.sqlserver.jdbc.SQLServerStatement",
+        "nativeMethod" : false
+      }, {
+        "classLoaderName" : "app",
+        "moduleName" : null,
+        "moduleVersion" : null,
+        "methodName" : "executeNonQuery",
+        "fileName" : "DatabaseCommand.java",
+        "lineNumber" : 124,
+        "className" : "com.eixox.data.sql.DatabaseCommand",
+        "nativeMethod" : false
+      }, {
+        "classLoaderName" : "app",
+        "moduleName" : null,
+        "moduleVersion" : null,
+        "methodName" : "executeNonQuery",
+        "fileName" : "DatabaseCommand.java",
+        "lineNumber" : 149,
+        "className" : "com.eixox.data.sql.DatabaseCommand",
+        "nativeMethod" : false
+      }, {
+        "classLoaderName" : "app",
+        "moduleName" : null,
+        "moduleVersion" : null,
+        "methodName" : "insert",
+        "fileName" : "DatabaseStorage.java",
+        "lineNumber" : 113,
+        "className" : "com.eixox.data.sql.DatabaseStorage",
+        "nativeMethod" : false
+      }, {
+        "classLoaderName" : "app",
+        "moduleName" : null,
+        "moduleVersion" : null,
+        "methodName" : "save",
+        "fileName" : "DataStorage.java",
+        "lineNumber" : 302,
+        "className" : "com.eixox.data.DataStorage",
+        "nativeMethod" : false
+      }, {
+        "classLoaderName" : "app",
+        "moduleName" : null,
+        "moduleVersion" : null,
+        "methodName" : "visitTitulo",
+        "fileName" : "ImportarTitulosNegociaveisVisitor.java",
+        "lineNumber" : 55,
+        "className" : "com.msquare.integrations.bovespa.ImportarTitulosNegociaveisVisitor",
+        "nativeMethod" : false
+      }, {
+        "classLoaderName" : "app",
+        "moduleName" : null,
+        "moduleVersion" : null,
+        "methodName" : "accept",
+        "fileName" : "BovespaTituloNegociavelDownload.java",
+        "lineNumber" : 57,
+        "className" : "com.msquare.integrations.bovespa.BovespaTituloNegociavelDownload",
+        "nativeMethod" : false
+      }, {
+        "classLoaderName" : "app",
+        "moduleName" : null,
+        "moduleVersion" : null,
+        "methodName" : "mainFlow",
+        "fileName" : "ImportarTitulosNegociaveis.java",
+        "lineNumber" : 14,
+        "className" : "com.msquare.integrations.bovespa.ImportarTitulosNegociaveis",
+        "nativeMethod" : false
+      }, {
+        "classLoaderName" : "app",
+        "moduleName" : null,
+        "moduleVersion" : null,
+        "methodName" : "execute",
+        "fileName" : "UsecaseImplementation.java",
+        "lineNumber" : 137,
+        "className" : "com.eixox.usecases.UsecaseImplementation",
+        "nativeMethod" : false
+      }, {
+        "classLoaderName" : "app",
+        "moduleName" : null,
+        "moduleVersion" : null,
+        "methodName" : "execute",
+        "fileName" : "UsecaseImplementation.java",
+        "lineNumber" : 178,
+        "className" : "com.eixox.usecases.UsecaseImplementation",
+        "nativeMethod" : false
+      }, {
+        "classLoaderName" : "app",
+        "moduleName" : null,
+        "moduleVersion" : null,
+        "methodName" : "execute",
+        "fileName" : "UsecaseImplementation.java",
+        "lineNumber" : 189,
+        "className" : "com.eixox.usecases.UsecaseImplementation",
+        "nativeMethod" : false
+      }, {
+        "classLoaderName" : "app",
+        "moduleName" : null,
+        "moduleVersion" : null,
+        "methodName" : "run",
+        "fileName" : "Autorun.java",
+        "lineNumber" : 56,
+        "className" : "com.msquare.Autorun",
+        "nativeMethod" : false
+      }, {
+        "classLoaderName" : "app",
+        "moduleName" : null,
+        "moduleVersion" : null,
+        "methodName" : "main",
+        "fileName" : "Autorun.java",
+        "lineNumber" : 31,
+        "className" : "com.msquare.Autorun",
+        "nativeMethod" : false
+      } ],
+      "nextException" : null,
+      "sqlstate" : "23000",
+      "errorCode" : 515,
+      "suppressed" : [ ],
+      "message" : "Cannot insert the value NULL into column 'created_at', table 'LabsIntegracoes.dbo.bovespa_titulonegociavel'; column does not allow nulls. INSERT fails.",
+      "localizedMessage" : "Cannot insert the value NULL into column 'created_at', table 'LabsIntegracoes.dbo.bovespa_titulonegociavel'; column does not allow nulls. INSERT fails."
+    },
+    "stackTrace" : [ {
+      "classLoaderName" : "app",
+      "moduleName" : null,
+      "moduleVersion" : null,
+      "methodName" : "executeNonQuery",
+      "fileName" : "DatabaseCommand.java",
+      "lineNumber" : 154,
+      "className" : "com.eixox.data.sql.DatabaseCommand",
+      "nativeMethod" : false
+    }, {
+      "classLoaderName" : "app",
+      "moduleName" : null,
+      "moduleVersion" : null,
+      "methodName" : "insert",
+      "fileName" : "DatabaseStorage.java",
+      "lineNumber" : 113,
+      "className" : "com.eixox.data.sql.DatabaseStorage",
+      "nativeMethod" : false
+    }, {
+      "classLoaderName" : "app",
+      "moduleName" : null,
+      "moduleVersion" : null,
+      "methodName" : "save",
+      "fileName" : "DataStorage.java",
+      "lineNumber" : 302,
+      "className" : "com.eixox.data.DataStorage",
+      "nativeMethod" : false
+    }, {
+      "classLoaderName" : "app",
+      "moduleName" : null,
+      "moduleVersion" : null,
+      "methodName" : "visitTitulo",
+      "fileName" : "ImportarTitulosNegociaveisVisitor.java",
+      "lineNumber" : 55,
+      "className" : "com.msquare.integrations.bovespa.ImportarTitulosNegociaveisVisitor",
+      "nativeMethod" : false
+    }, {
+      "classLoaderName" : "app",
+      "moduleName" : null,
+      "moduleVersion" : null,
+      "methodName" : "accept",
+      "fileName" : "BovespaTituloNegociavelDownload.java",
+      "lineNumber" : 57,
+      "className" : "com.msquare.integrations.bovespa.BovespaTituloNegociavelDownload",
+      "nativeMethod" : false
+    }, {
+      "classLoaderName" : "app",
+      "moduleName" : null,
+      "moduleVersion" : null,
+      "methodName" : "mainFlow",
+      "fileName" : "ImportarTitulosNegociaveis.java",
+      "lineNumber" : 14,
+      "className" : "com.msquare.integrations.bovespa.ImportarTitulosNegociaveis",
+      "nativeMethod" : false
+    }, {
+      "classLoaderName" : "app",
+      "moduleName" : null,
+      "moduleVersion" : null,
+      "methodName" : "execute",
+      "fileName" : "UsecaseImplementation.java",
+      "lineNumber" : 137,
+      "className" : "com.eixox.usecases.UsecaseImplementation",
+      "nativeMethod" : false
+    }, {
+      "classLoaderName" : "app",
+      "moduleName" : null,
+      "moduleVersion" : null,
+      "methodName" : "execute",
+      "fileName" : "UsecaseImplementation.java",
+      "lineNumber" : 178,
+      "className" : "com.eixox.usecases.UsecaseImplementation",
+      "nativeMethod" : false
+    }, {
+      "classLoaderName" : "app",
+      "moduleName" : null,
+      "moduleVersion" : null,
+      "methodName" : "execute",
+      "fileName" : "UsecaseImplementation.java",
+      "lineNumber" : 189,
+      "className" : "com.eixox.usecases.UsecaseImplementation",
+      "nativeMethod" : false
+    }, {
+      "classLoaderName" : "app",
+      "moduleName" : null,
+      "moduleVersion" : null,
+      "methodName" : "run",
+      "fileName" : "Autorun.java",
+      "lineNumber" : 56,
+      "className" : "com.msquare.Autorun",
+      "nativeMethod" : false
+    }, {
+      "classLoaderName" : "app",
+      "moduleName" : null,
+      "moduleVersion" : null,
+      "methodName" : "main",
+      "fileName" : "Autorun.java",
+      "lineNumber" : 31,
+      "className" : "com.msquare.Autorun",
+      "nativeMethod" : false
+    } ],
+    "suppressed" : [ ],
+    "message" : "com.microsoft.sqlserver.jdbc.SQLServerException: Cannot insert the value NULL into column 'created_at', table 'LabsIntegracoes.dbo.bovespa_titulonegociavel'; column does not allow nulls. INSERT fails.",
+    "localizedMessage" : "com.microsoft.sqlserver.jdbc.SQLServerException: Cannot insert the value NULL into column 'created_at', table 'LabsIntegracoes.dbo.bovespa_titulonegociavel'; column does not allow nulls. INSERT fails."
+  }
+}
+________________________________________________________________________________
+class com.msquare.integrations.bovespa.ImportarSerieHistoricaDiaria
+Tue Feb 27 10:24:35 BRT 2018
+________________________________________________________________________________
+{
+  "execution_start" : 1519737875236,
+  "execution_end" : 1519738052592,
+  "result_type" : "SUCCESS",
+  "result" : 4523,
+  "params" : null,
+  "validation" : null,
+  "exception" : null
+}

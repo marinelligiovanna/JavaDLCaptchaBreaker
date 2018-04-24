@@ -1,0 +1,53 @@
+________________________________________________________________________________
+class com.msquare.integrations.cvm.ImportarCvmCadastro
+Wed Feb 28 10:56:54 BRT 2018
+________________________________________________________________________________
+{
+  "execution_start" : 1519826214663,
+  "execution_end" : 1519826308134,
+  "result_type" : "SUCCESS",
+  "result" : 4289,
+  "params" : null,
+  "validation" : null,
+  "exception" : null
+}
+________________________________________________________________________________
+class com.msquare.integrations.bovespa.ImportarTitulosNegociaveis
+Wed Feb 28 10:58:28 BRT 2018
+________________________________________________________________________________
+{
+  "execution_start" : 1519826308241,
+  "execution_end" : 1519826931496,
+  "result_type" : "SUCCESS",
+  "result" : 18651,
+  "params" : null,
+  "validation" : null,
+  "exception" : null
+}
+________________________________________________________________________________
+class com.msquare.integrations.bovespa.ImportarSerieHistoricaDiaria
+Wed Feb 28 11:08:51 BRT 2018
+________________________________________________________________________________
+{
+  "execution_start" : 1519826931509,
+  "execution_end" : 1519827012830,
+  "result_type" : "SUCCESS",
+  "result" : 2055,
+  "params" : null,
+  "validation" : null,
+  "exception" : null
+}
+________________________________________________________________________________
+class com.msquare.AutorunTester
+Wed Feb 28 20:14:46 BRT 2018
+________________________________________________________________________________
+{
+  "name" : null,
+  "execution_start" : 1519859686293,
+  "execution_end" : 1519859686294,
+  "result_type" : "SUCCESS",
+  "result" : null,
+  "params" : null,
+  "validation" : null,
+  "exception" : null
+}

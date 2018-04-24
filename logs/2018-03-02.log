@@ -1,0 +1,500 @@
+________________________________________________________________________________
+class com.msquare.integrations.cvm.ImportarCvmCadastro
+Fri Mar 02 14:28:36 BRT 2018
+________________________________________________________________________________
+{
+  "name" : null,
+  "execution_start" : 1520011716630,
+  "execution_end" : 1520011815437,
+  "result_type" : "SUCCESS",
+  "result" : 4291,
+  "params" : null,
+  "validation" : null,
+  "exception" : null
+}
+________________________________________________________________________________
+class com.msquare.integrations.bovespa.ImportarTitulosNegociaveis
+Fri Mar 02 14:30:15 BRT 2018
+________________________________________________________________________________
+{
+  "name" : null,
+  "execution_start" : 1520011815550,
+  "execution_end" : 1520011853906,
+  "result_type" : "EXCEPTION",
+  "result" : null,
+  "params" : null,
+  "validation" : null,
+  "exception" : {
+    "cause" : null,
+    "stackTrace" : [ {
+      "classLoaderName" : null,
+      "moduleName" : "java.base",
+      "moduleVersion" : "9.0.1",
+      "methodName" : "read",
+      "fileName" : "SocketInputStream.java",
+      "lineNumber" : 210,
+      "className" : "java.net.SocketInputStream",
+      "nativeMethod" : false
+    }, {
+      "classLoaderName" : null,
+      "moduleName" : "java.base",
+      "moduleVersion" : "9.0.1",
+      "methodName" : "read",
+      "fileName" : "SocketInputStream.java",
+      "lineNumber" : 141,
+      "className" : "java.net.SocketInputStream",
+      "nativeMethod" : false
+    }, {
+      "classLoaderName" : null,
+      "moduleName" : "java.base",
+      "moduleVersion" : "9.0.1",
+      "methodName" : "fill",
+      "fileName" : "BufferedInputStream.java",
+      "lineNumber" : 246,
+      "className" : "java.io.BufferedInputStream",
+      "nativeMethod" : false
+    }, {
+      "classLoaderName" : null,
+      "moduleName" : "java.base",
+      "moduleVersion" : "9.0.1",
+      "methodName" : "read1",
+      "fileName" : "BufferedInputStream.java",
+      "lineNumber" : 286,
+      "className" : "java.io.BufferedInputStream",
+      "nativeMethod" : false
+    }, {
+      "classLoaderName" : null,
+      "moduleName" : "java.base",
+      "moduleVersion" : "9.0.1",
+      "methodName" : "read",
+      "fileName" : "BufferedInputStream.java",
+      "lineNumber" : 345,
+      "className" : "java.io.BufferedInputStream",
+      "nativeMethod" : false
+    }, {
+      "classLoaderName" : null,
+      "moduleName" : "java.base",
+      "moduleVersion" : "9.0.1",
+      "methodName" : "fastRead",
+      "fileName" : "ChunkedInputStream.java",
+      "lineNumber" : 244,
+      "className" : "sun.net.www.http.ChunkedInputStream",
+      "nativeMethod" : false
+    }, {
+      "classLoaderName" : null,
+      "moduleName" : "java.base",
+      "moduleVersion" : "9.0.1",
+      "methodName" : "read",
+      "fileName" : "ChunkedInputStream.java",
+      "lineNumber" : 689,
+      "className" : "sun.net.www.http.ChunkedInputStream",
+      "nativeMethod" : false
+    }, {
+      "classLoaderName" : null,
+      "moduleName" : "java.base",
+      "moduleVersion" : "9.0.1",
+      "methodName" : "read",
+      "fileName" : "FilterInputStream.java",
+      "lineNumber" : 133,
+      "className" : "java.io.FilterInputStream",
+      "nativeMethod" : false
+    }, {
+      "classLoaderName" : null,
+      "moduleName" : "java.base",
+      "moduleVersion" : "9.0.1",
+      "methodName" : "read",
+      "fileName" : "HttpURLConnection.java",
+      "lineNumber" : 3444,
+      "className" : "sun.net.www.protocol.http.HttpURLConnection$HttpInputStream",
+      "nativeMethod" : false
+    }, {
+      "classLoaderName" : null,
+      "moduleName" : "java.base",
+      "moduleVersion" : "9.0.1",
+      "methodName" : "read",
+      "fileName" : "FilterInputStream.java",
+      "lineNumber" : 133,
+      "className" : "java.io.FilterInputStream",
+      "nativeMethod" : false
+    }, {
+      "classLoaderName" : null,
+      "moduleName" : "java.base",
+      "moduleVersion" : "9.0.1",
+      "methodName" : "read",
+      "fileName" : "PushbackInputStream.java",
+      "lineNumber" : 183,
+      "className" : "java.io.PushbackInputStream",
+      "nativeMethod" : false
+    }, {
+      "classLoaderName" : null,
+      "moduleName" : "java.base",
+      "moduleVersion" : "9.0.1",
+      "methodName" : "fill",
+      "fileName" : "InflaterInputStream.java",
+      "lineNumber" : 243,
+      "className" : "java.util.zip.InflaterInputStream",
+      "nativeMethod" : false
+    }, {
+      "classLoaderName" : null,
+      "moduleName" : "java.base",
+      "moduleVersion" : "9.0.1",
+      "methodName" : "read",
+      "fileName" : "InflaterInputStream.java",
+      "lineNumber" : 159,
+      "className" : "java.util.zip.InflaterInputStream",
+      "nativeMethod" : false
+    }, {
+      "classLoaderName" : null,
+      "moduleName" : "java.base",
+      "moduleVersion" : "9.0.1",
+      "methodName" : "read",
+      "fileName" : "ZipInputStream.java",
+      "lineNumber" : 195,
+      "className" : "java.util.zip.ZipInputStream",
+      "nativeMethod" : false
+    }, {
+      "classLoaderName" : null,
+      "moduleName" : "java.base",
+      "moduleVersion" : "9.0.1",
+      "methodName" : "readBytes",
+      "fileName" : "StreamDecoder.java",
+      "lineNumber" : 284,
+      "className" : "sun.nio.cs.StreamDecoder",
+      "nativeMethod" : false
+    }, {
+      "classLoaderName" : null,
+      "moduleName" : "java.base",
+      "moduleVersion" : "9.0.1",
+      "methodName" : "implRead",
+      "fileName" : "StreamDecoder.java",
+      "lineNumber" : 326,
+      "className" : "sun.nio.cs.StreamDecoder",
+      "nativeMethod" : false
+    }, {
+      "classLoaderName" : null,
+      "moduleName" : "java.base",
+      "moduleVersion" : "9.0.1",
+      "methodName" : "read",
+      "fileName" : "StreamDecoder.java",
+      "lineNumber" : 178,
+      "className" : "sun.nio.cs.StreamDecoder",
+      "nativeMethod" : false
+    }, {
+      "classLoaderName" : null,
+      "moduleName" : "java.base",
+      "moduleVersion" : "9.0.1",
+      "methodName" : "read",
+      "fileName" : "InputStreamReader.java",
+      "lineNumber" : 185,
+      "className" : "java.io.InputStreamReader",
+      "nativeMethod" : false
+    }, {
+      "classLoaderName" : null,
+      "moduleName" : "java.base",
+      "moduleVersion" : "9.0.1",
+      "methodName" : "fill",
+      "fileName" : "BufferedReader.java",
+      "lineNumber" : 161,
+      "className" : "java.io.BufferedReader",
+      "nativeMethod" : false
+    }, {
+      "classLoaderName" : null,
+      "moduleName" : "java.base",
+      "moduleVersion" : "9.0.1",
+      "methodName" : "readLine",
+      "fileName" : "BufferedReader.java",
+      "lineNumber" : 326,
+      "className" : "java.io.BufferedReader",
+      "nativeMethod" : false
+    }, {
+      "classLoaderName" : null,
+      "moduleName" : "java.base",
+      "moduleVersion" : "9.0.1",
+      "methodName" : "readLine",
+      "fileName" : "BufferedReader.java",
+      "lineNumber" : 392,
+      "className" : "java.io.BufferedReader",
+      "nativeMethod" : false
+    }, {
+      "classLoaderName" : "app",
+      "moduleName" : null,
+      "moduleVersion" : null,
+      "methodName" : "accept",
+      "fileName" : "BovespaTituloNegociavelDownload.java",
+      "lineNumber" : 47,
+      "className" : "com.msquare.integrations.bovespa.BovespaTituloNegociavelDownload",
+      "nativeMethod" : false
+    }, {
+      "classLoaderName" : "app",
+      "moduleName" : null,
+      "moduleVersion" : null,
+      "methodName" : "mainFlow",
+      "fileName" : "ImportarTitulosNegociaveis.java",
+      "lineNumber" : 14,
+      "className" : "com.msquare.integrations.bovespa.ImportarTitulosNegociaveis",
+      "nativeMethod" : false
+    }, {
+      "classLoaderName" : "app",
+      "moduleName" : null,
+      "moduleVersion" : null,
+      "methodName" : "execute",
+      "fileName" : "UsecaseImplementation.java",
+      "lineNumber" : 137,
+      "className" : "com.eixox.usecases.UsecaseImplementation",
+      "nativeMethod" : false
+    }, {
+      "classLoaderName" : "app",
+      "moduleName" : null,
+      "moduleVersion" : null,
+      "methodName" : "execute",
+      "fileName" : "UsecaseImplementation.java",
+      "lineNumber" : 178,
+      "className" : "com.eixox.usecases.UsecaseImplementation",
+      "nativeMethod" : false
+    }, {
+      "classLoaderName" : "app",
+      "moduleName" : null,
+      "moduleVersion" : null,
+      "methodName" : "execute",
+      "fileName" : "UsecaseImplementation.java",
+      "lineNumber" : 189,
+      "className" : "com.eixox.usecases.UsecaseImplementation",
+      "nativeMethod" : false
+    }, {
+      "classLoaderName" : "app",
+      "moduleName" : null,
+      "moduleVersion" : null,
+      "methodName" : "run",
+      "fileName" : "Autorun.java",
+      "lineNumber" : 62,
+      "className" : "com.msquare.Autorun",
+      "nativeMethod" : false
+    }, {
+      "classLoaderName" : "app",
+      "moduleName" : null,
+      "moduleVersion" : null,
+      "methodName" : "main",
+      "fileName" : "Autorun.java",
+      "lineNumber" : 37,
+      "className" : "com.msquare.Autorun",
+      "nativeMethod" : false
+    } ],
+    "suppressed" : [ ],
+    "message" : "Connection reset",
+    "localizedMessage" : "Connection reset"
+  }
+}
+________________________________________________________________________________
+class com.msquare.integrations.bovespa.ImportarSerieHistoricaDiaria
+Fri Mar 02 14:30:53 BRT 2018
+________________________________________________________________________________
+{
+  "name" : null,
+  "execution_start" : 1520011853928,
+  "execution_end" : 1520012022373,
+  "result_type" : "SUCCESS",
+  "result" : 4453,
+  "params" : null,
+  "validation" : null,
+  "exception" : null
+}
+________________________________________________________________________________
+class com.msquare.integrations.cvm.ImportarCvmArquivamentoAutomatico
+Fri Mar 02 14:33:42 BRT 2018
+________________________________________________________________________________
+{
+  "name" : null,
+  "execution_start" : 1520012022385,
+  "execution_end" : 1520012123431,
+  "result_type" : "SUCCESS",
+  "result" : [ {
+    "name" : null,
+    "execution_start" : 1520012022482,
+    "execution_end" : 1520012037076,
+    "result_type" : "SUCCESS",
+    "result" : {
+      "data" : "2008-12-10",
+      "num_registros" : 263,
+      "ult_consulta" : 1520012025363,
+      "mensagem" : null
+    },
+    "params" : null,
+    "validation" : null,
+    "exception" : null
+  }, {
+    "name" : null,
+    "execution_start" : 1520012037076,
+    "execution_end" : 1520012044230,
+    "result_type" : "SUCCESS",
+    "result" : {
+      "data" : "2009-09-22",
+      "num_registros" : 74,
+      "ult_consulta" : 1520012039557,
+      "mensagem" : null
+    },
+    "params" : null,
+    "validation" : null,
+    "exception" : null
+  }, {
+    "name" : null,
+    "execution_start" : 1520012044230,
+    "execution_end" : 1520012046419,
+    "result_type" : "EXECUTION_FAILED",
+    "result" : {
+      "data" : "2013-02-04",
+      "num_registros" : 0,
+      "ult_consulta" : 1520012046397,
+      "mensagem" : "Query failed"
+    },
+    "params" : "2013-02-04",
+    "validation" : {
+      "name" : "url",
+      "restrictions" : [ ],
+      "valid" : false,
+      "message" : "22016Nenhum registro localizado.RetornaXMLDonwloadMultiplo",
+      "children" : [ ]
+    },
+    "exception" : null
+  }, {
+    "name" : null,
+    "execution_start" : 1520012046419,
+    "execution_end" : 1520012048891,
+    "result_type" : "EXECUTION_FAILED",
+    "result" : {
+      "data" : "2013-11-22",
+      "num_registros" : 0,
+      "ult_consulta" : 1520012048873,
+      "mensagem" : "Query failed"
+    },
+    "params" : "2013-11-22",
+    "validation" : {
+      "name" : "url",
+      "restrictions" : [ ],
+      "valid" : false,
+      "message" : "22016Nenhum registro localizado.RetornaXMLDonwloadMultiplo",
+      "children" : [ ]
+    },
+    "exception" : null
+  }, {
+    "name" : null,
+    "execution_start" : 1520012048891,
+    "execution_end" : 1520012051204,
+    "result_type" : "EXECUTION_FAILED",
+    "result" : {
+      "data" : "2014-11-20",
+      "num_registros" : 0,
+      "ult_consulta" : 1520012051185,
+      "mensagem" : "Query failed"
+    },
+    "params" : "2014-11-20",
+    "validation" : {
+      "name" : "url",
+      "restrictions" : [ ],
+      "valid" : false,
+      "message" : "22016Nenhum registro localizado.RetornaXMLDonwloadMultiplo",
+      "children" : [ ]
+    },
+    "exception" : null
+  }, {
+    "name" : null,
+    "execution_start" : 1520012051204,
+    "execution_end" : 1520012055386,
+    "result_type" : "SUCCESS",
+    "result" : {
+      "data" : 1519441200000,
+      "num_registros" : 13,
+      "ult_consulta" : 1520012053971,
+      "mensagem" : null
+    },
+    "params" : null,
+    "validation" : null,
+    "exception" : null
+  }, {
+    "name" : null,
+    "execution_start" : 1520012055386,
+    "execution_end" : 1520012057933,
+    "result_type" : "SUCCESS",
+    "result" : {
+      "data" : 1519527600000,
+      "num_registros" : 2,
+      "ult_consulta" : 1520012057732,
+      "mensagem" : null
+    },
+    "params" : null,
+    "validation" : null,
+    "exception" : null
+  }, {
+    "name" : null,
+    "execution_start" : 1520012057933,
+    "execution_end" : 1520012068612,
+    "result_type" : "SUCCESS",
+    "result" : {
+      "data" : 1519614000000,
+      "num_registros" : 157,
+      "ult_consulta" : 1520012060333,
+      "mensagem" : null
+    },
+    "params" : null,
+    "validation" : null,
+    "exception" : null
+  }, {
+    "name" : null,
+    "execution_start" : 1520012068612,
+    "execution_end" : 1520012086677,
+    "result_type" : "SUCCESS",
+    "result" : {
+      "data" : 1519700400000,
+      "num_registros" : 220,
+      "ult_consulta" : 1520012073485,
+      "mensagem" : null
+    },
+    "params" : null,
+    "validation" : null,
+    "exception" : null
+  }, {
+    "name" : null,
+    "execution_start" : 1520012086677,
+    "execution_end" : 1520012105455,
+    "result_type" : "SUCCESS",
+    "result" : {
+      "data" : 1519786800000,
+      "num_registros" : 230,
+      "ult_consulta" : 1520012092074,
+      "mensagem" : null
+    },
+    "params" : null,
+    "validation" : null,
+    "exception" : null
+  }, {
+    "name" : null,
+    "execution_start" : 1520012105455,
+    "execution_end" : 1520012120071,
+    "result_type" : "SUCCESS",
+    "result" : {
+      "data" : 1519873200000,
+      "num_registros" : 182,
+      "ult_consulta" : 1520012109115,
+      "mensagem" : null
+    },
+    "params" : null,
+    "validation" : null,
+    "exception" : null
+  }, {
+    "name" : null,
+    "execution_start" : 1520012120071,
+    "execution_end" : 1520012123431,
+    "result_type" : "SUCCESS",
+    "result" : {
+      "data" : 1519959600000,
+      "num_registros" : 45,
+      "ult_consulta" : 1520012121187,
+      "mensagem" : null
+    },
+    "params" : null,
+    "validation" : null,
+    "exception" : null
+  } ],
+  "params" : null,
+  "validation" : null,
+  "exception" : null
+}
