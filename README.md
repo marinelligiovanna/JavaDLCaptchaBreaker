@@ -8,12 +8,12 @@ The model was converted from Python .h5 file to .pb file using the class Keras2T
 You can call the DLDecaptcher class as:
 
 ```java
-		DLDecaptcher decaptcher = new DLDecaptcher();
+DLDecaptcher decaptcher = new DLDecaptcher();
 
-		File imageFile = new File("\\img286.jpg");
-		byte[] imageBytes = Files.readAllBytes(imageFile.toPath());
-		String captcha = decaptcher.decapcha(imageBytes);
-		System.out.println(captcha);
+File imageFile = new File("\\img286.jpg");
+byte[] imageBytes = Files.readAllBytes(imageFile.toPath());
+String captcha = decaptcher.decapcha(imageBytes);
+System.out.println(captcha);
 ```
 Some examples were included in the resources file.
 
