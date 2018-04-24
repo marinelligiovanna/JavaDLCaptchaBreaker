@@ -18,7 +18,7 @@ public class DLDecaptcher implements Decaptcher {
 	public static void main(String[] args) throws IOException {
 		DLDecaptcher decaptcher = new DLDecaptcher();
 
-		File imageFile = new File("U:\\CaptchasCVM\\img273.jpg");
+		File imageFile = new File("U:\\CaptchasCVM\\img286.jpg");
 		byte[] imageBytes = Files.readAllBytes(imageFile.toPath());
 		String captcha = decaptcher.decapcha(imageBytes);
 		System.out.println(captcha);
