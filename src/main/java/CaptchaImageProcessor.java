@@ -126,8 +126,7 @@ public class CaptchaImageProcessor {
 
 		// Convert list to float 32
 		Mat reshaped_image32f = new Mat();
-		reshaped_image.convertTo(reshaped_image32f, CvType.CV_32F, 1.0 / 255.0);
-
+		reshaped_image.convertTo(reshaped_image32f, CvType.CV_32F);
 		return reshaped_image32f;
 	}
 
@@ -144,6 +143,8 @@ public class CaptchaImageProcessor {
 
 		Imgproc.cvtColor(image, image, Imgproc.COLOR_GRAY2BGR);
 		Mat image32F = convertMatTo32F(image);
+		
+		
 
 		Mat labels = new Mat();
 		TermCriteria criteria = new TermCriteria(TermCriteria.EPS + TermCriteria.COUNT, 50, 0.1);
@@ -195,9 +196,7 @@ public class CaptchaImageProcessor {
 	 * @throws IOException
 	 */
 	private Mat thresholdCaptchaImage(Mat imageMat) throws IOException {
-
-		// Mat imageMat = byteArray2Mat(imageBytes);
-
+		
 		// Convert image to grayscale and resize for a better result
 		Size originalImageSize = imageMat.size();
 		Imgproc.resize(imageMat, imageMat, new Size(0, 0), 5.0, 5.0, Imgproc.INTER_CUBIC);
@@ -221,8 +220,8 @@ public class CaptchaImageProcessor {
 
 		// Invert color if image has black backgroud (more suitable to ML algorithm)
 		if (hasBlackBackgroud(imageThresh)) {
-			imageThresh = invertColors(imageThresh);
 			Core.bitwise_not(imageThresh, imageThresh);
+
 		}
 
 		return imageThresh;
@@ -243,9 +242,8 @@ public class CaptchaImageProcessor {
 	private ArrayList<byte[]> segmentCaptchaImage(Mat imageMat, double minHeight, double minWidth) {
 
 		// Find contours in negative image to avoid finding image borders;
-		Mat invImageMat = invertColors(imageMat);
-		Highgui.imwrite("U:\\norm.jpg", imageMat);
-		Highgui.imwrite("U:\\inv.jpg", invImageMat);
+		Mat invImageMat = new Mat();
+		Core.bitwise_not(imageMat, invImageMat);
 		Imgproc.cvtColor(invImageMat, invImageMat, Imgproc.COLOR_RGB2GRAY);
 		List<MatOfPoint> contours = new ArrayList<>();
 		Mat hierarchy = new Mat();
@@ -271,7 +269,6 @@ public class CaptchaImageProcessor {
 
 			try {
 				Mat croppedRectMat = imageMat.submat(boundingRectangles.get(i));
-				// System.out.println(imageMat.channels());
 				segmentedChars.add(mat2byteArray(croppedRectMat));
 			} catch (IOException e) {
 				e.printStackTrace();
@@ -305,7 +302,7 @@ public class CaptchaImageProcessor {
 	public static void main(String[] args) throws IOException {
 
 		String dirToSave = "U:\\";
-		String captchaPath = "U:\\RandomTxt.jpg";
+		String captchaPath = "U:\\CaptchasCVM\\img272_.jpg";
 		File imageFile = new File(captchaPath);
 		byte[] imageBytes = Files.readAllBytes(imageFile.toPath());
 
