@@ -15,6 +15,6 @@ byte[] imageBytes = Files.readAllBytes(imageFile.toPath());
 String captcha = decaptcher.decapcha(imageBytes);
 System.out.println(captcha);
 ```
-Some examples were included in the resources file.
+Some captcha images were included in the resources file as example.
 
 If you have any doubts, feel free to contact me.
